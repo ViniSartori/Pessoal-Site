@@ -1,0 +1,96 @@
+* {
+    background-color: rgb(241, 232, 232);
+}
+
+header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.container-logo {
+    display: flex;
+    font-family: 'Lobster', cursive;
+    flex: auto;
+    flex: 1;
+}
+
+#foto {
+    width: 100px;
+    border-radius: 50%;
+}
+
+#redes {
+    align-items: auto;
+}
+
+#resumo {
+    font-family: 'Comfortaa', cursive;
+    font-size: 07pt;
+}
+
+#estudo {
+    font-size: 10pt;
+    font-family: 'Comfortaa', cursive;
+}
+
+#prof {
+    font-size: 10pt;
+}
+
+#idiomas {
+    font-size: 10pt;
+}
+
+#resumo h1 {
+    text-align: justify;
+    text-indent: 30px;
+    font-size: 15pt;
+}
+
+#estudo h1 {
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    font-size: 15pt;
+}
+
+#prof h1 {
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    font-size: 15pt;
+}
+
+#idiomas h1 {
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    font-size: 15pt;
+}
+
+#cursos img {
+    width: 60px;
+    padding-left: 60pt;
+    margin-left: 100pt;
+}
+
+#cursos h1 {
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    font-size: 15pt;
+}
+
+.bordaImagem{
+    border: 20px solid transparent;
+    border-image:url(./img/border2.png) 25% round;
+    height: 15pt;
+}
+
+#prof h2 {
+   font-family: 'Comfortaa', cursive;
+   font-size:15pt;
+}
+
+#idioma h2 {
+    font-family: 'Comfortaa', cursive;
+    font-size: 15pt;
+}
